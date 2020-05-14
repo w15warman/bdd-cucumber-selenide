@@ -10,6 +10,7 @@ public class HomePage extends BasePage{
 
   private final SelenideElement menuBtn = $(byXpath("//a[contains(text(),'Menu')]"));
 
+
   public HomePage openPage() {
     Selenide.open(getBaseUrl());
     return this;

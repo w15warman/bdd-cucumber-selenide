@@ -16,6 +16,6 @@ public class BaseTest {
   @After
   public static void tearDown() {
     Selenide.clearBrowserCookies();
-    Selenide.closeWindow();
+    Selenide.closeWebDriver();
   }
 }
