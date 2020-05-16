@@ -11,7 +11,7 @@ Feature: Order a drink
     When the customer chooses the Hot Chocolate
     Then the customer sees the Hot Chocolate details page
     When the customer chooses a size
-    #    Then the customer checks the nutrition information
+    Then the customer checks the nutrition information
     And chooses a milk
     And chooses a toppings
     And chooses a flavors

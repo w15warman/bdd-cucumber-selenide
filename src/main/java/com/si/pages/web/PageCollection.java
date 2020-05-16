@@ -1,5 +1,6 @@
 package com.si.pages.web;
 
+import com.si.pages.StoreMapPage;
 import com.si.pages.web.drink_details.HotChocolate;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,5 +14,6 @@ public class PageCollection {
   public MenuPage menuPage = new MenuPage();
   public HotDrinksPage hotDrinksPage = new HotDrinksPage();
   public HotChocolate hotChocolate = new HotChocolate();
+  public StoreMapPage storeMapPage = new StoreMapPage();
 
 }

@@ -6,9 +6,11 @@ import static com.codeborne.selenide.Selenide.$;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
-public class HomePage extends BasePage{
+public class HomePage extends BasePage {
 
   private final SelenideElement menuBtn = $(byXpath("//a[contains(text(),'Menu')]"));
+  private final SelenideElement storeMap = $(
+      byXpath("//div[@class='ml6 flex items-center']/a[1]"));
 
 
   public HomePage openPage() {
@@ -20,6 +22,9 @@ public class HomePage extends BasePage{
     menuBtn.click();
   }
 
+  public void openStoreMap() {
+    storeMap.click();
+  }
 
 
 }

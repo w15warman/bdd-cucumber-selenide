@@ -2,12 +2,14 @@ package com.si.definitions;
 
 import static com.si.pages.web.PagePaths.*;
 import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertEquals;
+//import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.codeborne.selenide.WebDriverRunner;
 import com.si.pages.web.PageCollection;
-import cucumber.api.java.en.Then;
+import io.cucumber.java.en.Then;
 
-public class VerificationStepDef {
+public class VerificationStepdefs {
 
   PageCollection pages = new PageCollection();
 
@@ -24,5 +26,15 @@ public class VerificationStepDef {
   @Then("the customer sees the Hot Chocolate details page")
   public void theCustomerSeesTheHotChocolateDetailsPage() {
     assertEquals(HOT_CHOCOLATE_DETAILS_PAGE, WebDriverRunner.url());
+  }
+
+  @Then("the customer checks the nutrition information")
+  public void theCustomerChecksTheNutritionInformation() {
+    assertEquals("500", pages.hotChocolate.getCaloriesItem().getText());
+  }
+
+  @Then("the customer sees the map of the stores")
+  public void theCustomerSeesTheMapOfTheStores() {
+    assertEquals(STORE_MAP_PAGE, WebDriverRunner.url());
   }
 }

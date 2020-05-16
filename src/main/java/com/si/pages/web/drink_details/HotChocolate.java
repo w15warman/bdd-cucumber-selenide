@@ -38,6 +38,9 @@ public class HotChocolate {
       byXpath("//span[contains(text(),'Flavors')]/ancestor::button"));
   private final SelenideElement caramelSyrupPicker = $(
       byXpath("//div[contains(text(),'Caramel Syrup')]/following::button[1]"));
+  //Nutrition Information
+  @Getter
+  private SelenideElement caloriesItem = $(byXpath("//span[contains(text(),'Calories')]/following::span[1]"));
 
 
 

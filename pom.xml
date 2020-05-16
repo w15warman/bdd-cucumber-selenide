@@ -29,7 +29,7 @@
     <lombok.version>1.18.10</lombok.version>
     <javafaker.version>1.0.2</javafaker.version>
 
-    <cucumber.version>4.2.4</cucumber.version>
+    <cucumber.version>5.5.0</cucumber.version>
     <junit.version>4.12</junit.version>
     <allure-junit4.version>2.13.1</allure-junit4.version>
     <selenide.version>5.10.0</selenide.version>
@@ -164,6 +164,7 @@
     <scope>test</scope>
   </dependency>
 
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
   <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
@@ -184,7 +185,7 @@
     <version>${selenide.version}</version>
   </dependency>
 
-  <dependency>
+    <dependency>
     <groupId>io.qameta.allure</groupId>
     <artifactId>allure-junit4</artifactId>
     <version>${allure-junit4.version}</version>
