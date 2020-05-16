@@ -1,12 +1,13 @@
 package com.si.definitions;
 
-import static com.si.pages.web.PagePaths.*;
+import static com.si.pages.PagePaths.HOT_CHOCOLATE_DETAILS_PAGE;
+import static com.si.pages.PagePaths.HOT_DRINKS_PAGE;
+import static com.si.pages.PagePaths.MENU_PAGE;
+import static com.si.pages.PagePaths.STORE_MAP_PAGE;
 import static org.junit.Assert.assertEquals;
-//import static org.junit.Assert.assertEquals;
-//import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.codeborne.selenide.WebDriverRunner;
-import com.si.pages.web.PageCollection;
+import com.si.pages.PageCollection;
 import io.cucumber.java.en.Then;
 
 public class VerificationStepdefs {

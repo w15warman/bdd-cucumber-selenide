@@ -1,6 +1,6 @@
 package com.si.definitions;
 
-import com.si.pages.web.PageCollection;
+import com.si.pages.PageCollection;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;

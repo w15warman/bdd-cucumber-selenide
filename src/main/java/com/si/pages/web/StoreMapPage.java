@@ -1,4 +1,4 @@
-package com.si.pages;
+package com.si.pages.web;
 
 import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;

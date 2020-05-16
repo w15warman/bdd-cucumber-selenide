@@ -1,4 +1,4 @@
-package com.si.pages.web;
+package com.si.pages;
 
 import framework.utils.PropertiesReader;
 import java.util.Properties;

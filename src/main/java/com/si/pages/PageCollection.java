@@ -1,6 +1,9 @@
-package com.si.pages.web;
+package com.si.pages;
 
-import com.si.pages.StoreMapPage;
+import com.si.pages.web.StoreMapPage;
+import com.si.pages.web.HomePage;
+import com.si.pages.web.HotDrinksPage;
+import com.si.pages.web.MenuPage;
 import com.si.pages.web.drink_details.HotChocolate;
 import lombok.Data;
 import lombok.NoArgsConstructor;
