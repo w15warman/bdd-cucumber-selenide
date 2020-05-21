@@ -9,6 +9,7 @@
 /target/
 /.idea/
 /build/
+/allure-results/
 # Package Files #
 *.jar
 *.war
